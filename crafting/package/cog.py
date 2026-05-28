@@ -230,12 +230,12 @@ class Craft(commands.GroupCog, group_name="craft"):
         countryball: BallEnabledTransform,
     ):
         """
-        Craft an Elemental special from Fire, Earth, Water, and Electric specials.
+        Craft an Elemental special from Fire, Earth, Water, and Air specials.
 
         Parameters
         ----------
         countryball: Ball
-            The ball to craft into an Elemental special.
+            The unit to craft into an Elemental special.
         """
         await interaction.response.defer()
 
