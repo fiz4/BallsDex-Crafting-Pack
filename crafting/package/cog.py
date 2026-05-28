@@ -22,12 +22,12 @@ if TYPE_CHECKING:
 
 
 ELEMENTAL_INGREDIENT_SPECIAL_IDS = {
-    "Fire": 19,
-    "Earth": 22,
-    "Water": 23,
-    "Electric": 27,
+    "Fire": 15,
+    "Earth": 14,
+    "Water": 13,
+    "Air": 12,
 }
-ELEMENTAL_RESULT_SPECIAL_ID = 28
+ELEMENTAL_RESULT_SPECIAL_ID = 11
 
 
 class Craft(commands.GroupCog, group_name="craft"):
